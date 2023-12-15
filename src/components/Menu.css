@@ -1,0 +1,72 @@
+.menu {
+    padding: 2rem 1rem;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card {
+    background-color: #efedee;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card-image img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-text {
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-text .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-description {
+    line-height: 1.25;
+}
+
+.menu-name {
+    font-size: 1.5rem;
+}
+
+.menu-price {
+    font-size: 1rem;
+    color: coral;
+}
+
+.order-link {
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+@media (min-width: 1200px) {
+    .menu {
+        padding: 3rem 210px;
+    }
+    .menu-list {
+        flex-direction: row;
+    }
+
+    .menu .card {
+        flex: 1;
+    }
+}
